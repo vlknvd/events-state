@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.portfolio {
+  width: 1000px;
+}
+
+.toolbar-filters {
+  margin-bottom: 30px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.images img {
+  max-width: 100%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
